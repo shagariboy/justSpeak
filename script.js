@@ -10,3 +10,8 @@ window.onload = function (g_id_onload) {
     });
     google.accounts.id.prompt();
   };
+
+  function onLoad(params) {
+      window.location.replace("/userDashboard/uD.html");
+  }
+  
