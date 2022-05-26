@@ -3,7 +3,7 @@ $(document).on("click", ".navbar-right .dropdown-menu", function(e){
 });
 
 
-window.onload = function (g_id_onload) {
+window.onload = function () {
     google.accounts.id.initialize({
       client_id: '270686179289-u2m5huooq9ljcfibktb4akibg5omm0o0.apps.googleusercontent.com',
       callback: handleCredentialResponse
