@@ -11,7 +11,10 @@ window.onload = function (g_id_onload) {
     google.accounts.id.prompt();
   };
 
+  /*login function */
   function onLoad(params) {
-      window.location.replace("/userDashboard/uD.html");
+    var Username=document.getElementById("username-field").value;
+    localStorage.setItem("id", Username);
+     window.location.replace("/userDashboard/uD.html");
   }
   

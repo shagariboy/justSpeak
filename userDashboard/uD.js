@@ -141,3 +141,7 @@ function validateEmail(email) {
       return false;
     });
   });
+
+/* username function */
+
+  document.getElementById("userId").innerHTML=localStorage.getItem("id")
